@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "Optimized frontend styles and scripts for the Fleming Medical website running on Sana Commerce Cloud.",
   "source": "src/index.js",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "David Matthew",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
 }
