@@ -1,0 +1,6 @@
+# File types and folders to ignore.
+*.log
+.parcel-cache/
+node_modules/
+dist/
+

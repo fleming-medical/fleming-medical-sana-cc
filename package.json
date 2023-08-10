@@ -2,10 +2,11 @@
   "name": "fleming-medical-sana-cc",
   "version": "1.0.0",
   "description": "Optimized frontend styles and scripts for the Fleming Medical website running on Sana Commerce Cloud.",
-  "source": "src/index.js",
-  "main": "dist/index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel --public-url /content/files/code",
+    "build": "parcel build --no-source-maps",
+    "clean": "rm -r dist/"
   },
   "keywords": [],
   "author": "David Matthew",
