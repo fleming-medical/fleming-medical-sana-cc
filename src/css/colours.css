@@ -1,0 +1,24 @@
+.blue {
+    color: var(--fm-blue);
+}
+
+.bg-blue {
+    background-color: var(--fm-blue);
+}
+
+.md-red {
+    color: var(--md-red);
+}
+
+.ls-blue {
+    color: var(--ls-blue);
+}
+
+.lightblue {
+    color: var(--fm-lightblue);
+}
+
+.bg-lightblue {
+    background-color: var(--fm-lightblue);
+}
+
