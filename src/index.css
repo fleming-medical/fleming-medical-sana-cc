@@ -1,3 +1,4 @@
 /* Import all custom stylesheets */
 @import './css/variables.css';
 @import './css/colours.css';
+@import './css/components.css';
