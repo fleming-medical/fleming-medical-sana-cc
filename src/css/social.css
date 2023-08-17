@@ -1,0 +1,27 @@
+.social-link svg,
+.social-link span {
+    transition: all 0.3s;
+}
+
+.social-link span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff3;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    margin: 0.4rem;
+}
+
+.social-link svg {
+    fill: #fff;
+}
+
+.social-link:hover span {
+    background-color: #ffffff;
+}
+
+.social-link:hover svg {
+    fill: #005598;
+}
