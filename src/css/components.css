@@ -2,13 +2,13 @@
     display: block;
     position: relative;
     overflow: hidden;
-  }
-  
-  .hover-card-content {
+}
+
+.hover-card-content {
     position: relative;
-  }
-  
-  .hover-card-arrow {
+}
+
+.hover-card-arrow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,43 +22,54 @@
     box-sizing: border-box;
     z-index: 2;
     transform: translateX(61px);
-  }
-  
-  .hover-card-arrow span {
+}
+
+.hover-card-arrow span {
     color: #fff;
     font-size: 36px;
     padding: 0 0 3px 0;
     opacity: 0;
     transform: translateX(-50px);
-  }
-  
-  .hover-card-border {
+}
+
+.hover-card-border {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 5px;
     background-color: var(--fm-lightblue);
     transform: translateX(-105%);
-  }
-  
-  .hover-card,
-  .hover-card-arrow,
-  .hover-card-border,
-  .hover-card-content,
-  .hover-card-arrow span {
+}
+
+.hover-card,
+.hover-card-arrow,
+.hover-card-border,
+.hover-card-content,
+.hover-card-arrow span {
     transition: transform 0.25s;
-  }
-  
-  .hover-card:hover .hover-card-content {
+}
+
+.hover-card:hover .hover-card-content {
     transform: translateY(-4px);
-  }
-  
-  .hover-card:hover .hover-card-arrow,
-  .hover-card:hover .hover-card-border, 
-  .hover-card:hover .hover-card-arrow span {
+}
+
+.hover-card:hover .hover-card-arrow,
+.hover-card:hover .hover-card-border,
+.hover-card:hover .hover-card-arrow span {
     transform: translateX(0);
-  }
-  
-  .hover-card:hover .hover-card-arrow span {
+}
+
+.hover-card:hover .hover-card-arrow span {
     opacity: 1;
-  }
+}
+
+.row-curved {
+    position: relative;
+    content: '';
+    width: 100%;
+    aspect-ratio: 8/1;
+    background-image: url('/content/files/images/bg/row-curve.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
