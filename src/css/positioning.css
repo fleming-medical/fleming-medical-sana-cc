@@ -1,0 +1,28 @@
+.absolute {
+    position: absolute;
+}
+  
+.relative {
+    position: relative;
+}
+
+.bg-center {
+    background-position: center;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-contain {
+    background-size: contain;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+  
