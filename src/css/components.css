@@ -2,6 +2,7 @@
     display: block;
     position: relative;
     overflow: hidden;
+    margin: 1rem 0;
 }
 
 .hover-card-content {
@@ -63,13 +64,116 @@
     opacity: 1;
 }
 
-.row-curved {
-    position: relative;
+.row-curved::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
     content: '';
     width: 100%;
     aspect-ratio: 8/1;
-    background-image: url('/content/files/images/bg/row-curve.svg');
+    background-image: url('/src/assets/row-curve.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.row-curved {
+    padding: 40px 0 120px;
+}
+
+@media (min-width: 575px) {
+    .row-curved {
+        padding: 50px 0 140px;
+    }
+}
+
+@media (min-width: 768px) {
+    .row-curved {
+        padding: 60px 0 160px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .row-curved {
+        padding: 60px 0 200px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .row-curved {
+        padding: 60px 0 260px;
+    }
+}
+
+@media (min-width: 2500px) {
+    .row-curved {
+        padding: 60px 0 300px;
+    }
+}
+
+.circle-hover-icon {
+    width: 175px;
+    height: 175px;
+    padding: 35px;
+    background-color: var(--ls-blue);
+    border: 15px solid #a6e2f5;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+a:hover .circle-hover-icon,
+.circle-hover-icon:hover {
+    background-color: var(--fm-blue);
+    border-color: #eee;
+}
+
+.circle-hover-icon img {
+    transition: transform .3s;
+}
+
+a:hover .circle-hover-icon img,
+.circle-hover-icon:hover img {
+    transform: scale(1.05);
+}
+
+.Button_base {
+    padding: 0 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    min-height: 2.5rem;
+}
+
+.Button_icon {
+    margin-top: -2px;
+}
+
+.Button_icon:after {
+    margin-left: 0.5rem;
+    transition: transform 0.2s;
+}
+
+.Button_base:hover .Button_icon:after {
+    transform: translateX(4px);
+}
+
+.Search_submit,
+.Search_container {
+    border: 2px solid #6fb9e1 !important;
+}
+
+.Search_input:focus-visible {
+    outline: none;
+}
+
+.Summary_badge {
+    right: -1rem;
+}
+
+.ScrollToTopButton_scroll-top .ScrollToTopButton_icon {
+    filter: none;
+}
+
+.MainNav_nav-main {
+    font-weight: 700;
 }

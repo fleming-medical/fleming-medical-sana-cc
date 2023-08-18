@@ -2,6 +2,10 @@
     display: block;
 }
 
+.flex {
+    display: flex;
+}
+
 .w-100 {
     width: 100% !important;
 }
@@ -14,8 +18,16 @@
     box-sizing: border-box;
 }
 
+p {
+    line-height: var(--theme-text_LineHeight);
+}
+
 .row-padding {
     padding: 20px 0 25px;
+}
+
+.no-decoration {
+    text-decoration: none !important;
 }
 
 @media (max-width: 575px) {
