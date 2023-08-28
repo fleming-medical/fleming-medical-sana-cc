@@ -30,10 +30,26 @@
     flex-direction: column;
 }
 
-.items-center {
+.flex-row {
+    flex-direction: row;
+}
+
+.items-center { 
     align-items: center;
 }
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
 }

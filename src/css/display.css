@@ -1,9 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .block {
     display: block;
 }
 
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 .flex {
     display: flex;
+}
+
+.overflow-hidden {
+    overflow: hidden;
 }
 
 .w-100 {
