@@ -1,0 +1,96 @@
+.Breadcrumb_container {
+    padding: 1rem 0 0.5rem;
+    text-transform: uppercase;
+}
+
+.page-NewsItem,
+.page-NewsOverview {
+    padding-top: 1.5rem;
+}
+
+.NewsDetails_header,
+.NewsOverview_header {
+    text-transform: unset;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.Button_base {
+    padding: 0 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    min-height: 2.5rem;
+}
+
+.Button_icon {
+    margin-top: -2px;
+}
+
+.Button_icon:after {
+    margin-left: 0.5rem;
+    transition: transform 0.2s;
+}
+
+.Button_base:hover .Button_icon:after {
+    transform: translateX(4px);
+}
+
+.Search_submit,
+.Search_container {
+    border: 2px solid #6fb9e1 !important;
+}
+
+.Search_input:focus-visible {
+    outline: none;
+}
+
+.Summary_badge {
+    right: -1rem;
+}
+
+.ScrollToTopButton_scroll-top .ScrollToTopButton_icon {
+    filter: none;
+}
+
+.MainNav_nav-main {
+    font-weight: 700;
+}
+
+ul.MainNav_nav-list-root {
+    justify-content: space-between;
+}
+
+.BlogOverviewBlock_row {
+    padding-top: 1.5rem;
+}
+
+.LatestBlogItems_grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.LatestBlogItems_item {
+    min-width: 100%;
+}
+
+.BlogOverviewBlock_item-info b,
+.BlogOverviewBlock_item-info span:nth-child(2) {
+    display: none;
+}
+
+.BlogOverviewBlock_title a,
+.LatestBlogItems_info a {
+    color: #005598 !important;
+}
+
+.page-BlogItemPage .LatestBlogItems_image {
+    display: none;
+}
+
+#AuthorFacet,
+[aria-controls="AuthorFacet"] {
+    display: none;
+}
+
+.BlogFacets_mobile-toggler {
+    width: 100%;
+}

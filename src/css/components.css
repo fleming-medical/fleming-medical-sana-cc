@@ -137,51 +137,6 @@ a:hover .circle-hover-icon img,
     transform: scale(1.05);
 }
 
-.Button_base {
-    padding: 0 12px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    min-height: 2.5rem;
-}
-
-.Button_icon {
-    margin-top: -2px;
-}
-
-.Button_icon:after {
-    margin-left: 0.5rem;
-    transition: transform 0.2s;
-}
-
-.Button_base:hover .Button_icon:after {
-    transform: translateX(4px);
-}
-
-.Search_submit,
-.Search_container {
-    border: 2px solid #6fb9e1 !important;
-}
-
-.Search_input:focus-visible {
-    outline: none;
-}
-
-.Summary_badge {
-    right: -1rem;
-}
-
-.ScrollToTopButton_scroll-top .ScrollToTopButton_icon {
-    filter: none;
-}
-
-.MainNav_nav-main {
-    font-weight: 700;
-}
-
-ul.MainNav_nav-list-root {
-    justify-content: space-between;
-}
-
 .map-embed {
     width: 100%;
     height: 450px;
