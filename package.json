@@ -1,8 +1,8 @@
 {
   "name": "fleming-medical-sana-cc",
   "version": "1.0.0",
-  "description": "Optimized frontend styles and scripts for the Fleming Medical website running on Sana Commerce Cloud.",
-  "source": "src/index.html",
+  "description": "Optimized frontend styles for the Fleming Medical website running on Sana Commerce Cloud.",
+  "source": "src/index.css",
   "scripts": {
     "dev": "parcel --public-url /content/files/code",
     "build": "parcel build --no-source-maps",
