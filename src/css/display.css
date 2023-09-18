@@ -58,9 +58,37 @@ p {
     }
 }
 
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none !important;
+    }
+}
+
 @media (min-width: 768px) {
+    .hide-desktop {
+        display: none !important;
+    }
+
     .row-padding {
         padding: 40px 0 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hide-md {
+        display: none !important;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .hide-lg {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hide-xl {
+        display: none !important;
     }
 }
 
