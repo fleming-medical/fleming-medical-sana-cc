@@ -36,9 +36,9 @@
 }
 
 .Search_submit,
-.Search_container {
+/*.Search_container {
     border: 2px solid #6fb9e1 !important;
-}
+}*/
 
 .Search_input:focus-visible {
     outline: none;
